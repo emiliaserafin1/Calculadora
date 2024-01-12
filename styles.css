@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.main-container {
+    height: 400px;
+    width: 335px;
+    background-color: aqua;
+
+}
+
+.display {
+    display: flex;
+    height: 70px;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+button {
+    margin-top: 4px;
+    border: none;
+    height: 80px;
+    width: 80px;
+    font-size: 35px;
+}
+
+.grey {
+    background-color: #e5e5e5;
+}
+
+.orange {
+    background-color: #ff9a00;
+    color: white;
+}
+
+.big {
+    width: 164px;
+}
+
+.bigger {
+    width: 248px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
